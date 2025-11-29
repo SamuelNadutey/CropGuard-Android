@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#030213</color>   <color name="brand_destructive">#D4183D</color> <color name="brand_green">#16A34A</color>      <color name="brand_accent">#E9EBEF</color>
+
+    <color name="glass_white_90">#E6FFFFFF</color> <color name="glass_white_15">#26FFFFFF</color> <color name="glass_black_60">#99000000</color> <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color> <color name="text_muted">#717182</color>
+</resources>
