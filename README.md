@@ -5,6 +5,8 @@
 ![AI Model](https://img.shields.io/badge/Model-EfficientNet--Lite0-orange) 
 ![Connectivity](https://img.shields.io/badge/Connectivity-100%25%20Offline-green)
 
+📄 **[Read the Full Technical Report](./TECHNICAL_REPORT.md)** (Architecture, Protocols & Verification)
+
 **CropGuard** is an offline-first Android application designed to diagnose cocoa and maize diseases in resource-constrained farming communities in Ghana. 
 
 It serves as the **software application layer** for my research into **Systolic Array Acceleration**. It demonstrates the real-world latency bottleneck of mobile CPUs (~150ms) and validates the need for the custom hardware accelerator I designed (~12ms target).
