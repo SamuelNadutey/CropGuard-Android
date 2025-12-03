@@ -43,8 +43,13 @@ https://github.com/user-attachments/assets/c2dd3900-387c-4c28-bfa7-3bc1e57c87ae
 
 ## 🚀 Key Engineering Features
 
+###  AI Model Engineering
+* **[View Training Notebook](./model_training/cropGuard_training.ipynb)**: Full Python pipeline using TensorFlow Lite Model Maker.
+* **Architecture**: EfficientNet-B0 (Quantized to INT8).
+* **Dataset**: Curated from open-source agricultural repositories(Kaggle) and validated against local field samples.
+
 ### 1. Zero-Latency Offline Inference
-Instead of relying on cloud APIs (which fail in rural Ghana), CropGuard runs a quantized **EfficientNet-Lite0** model directly on the device using the **TensorFlow Lite Interpreter**.
+Instead of relying on cloud APIs (which fail in rural Ghana), CropGuard runs a quantized **EfficientNet-B0** model directly on the device using the **TensorFlow Lite Interpreter**.
 * **Input Resolution:** 224x224
 * **Model Size:** < 4MB (INT8 Quantized)
 * **Target Accuracy:** 94% on validation set
