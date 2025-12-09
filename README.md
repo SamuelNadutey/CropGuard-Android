@@ -1,8 +1,8 @@
-# CropGuard: Offline Edge-AI Agricultural Diagnostics 🇬🇭
+# CropGuard: Offline Edge-AI Agricultural Diagnostics
 
 ![Status](https://img.shields.io/badge/Status-Field%20Prototype-success) 
 ![Platform](https://img.shields.io/badge/Platform-Android-blue) 
-![AI Model](https://img.shields.io/badge/Model-EfficientNet--Lite0-orange) 
+![AI Model](https://img.shields.io/badge/Model-EfficientNet--B0-orange) 
 ![Connectivity](https://img.shields.io/badge/Connectivity-100%25%20Offline-green)
 
 📄 **[Read the Full Technical Report](./TECHNICAL_REPORT.md)** (Architecture, Protocols & Verification)
@@ -11,11 +11,11 @@
 
 It serves as the **software application layer** for my research into **Systolic Array Acceleration**. It demonstrates the real-world latency bottleneck of mobile CPUs (~150ms) and validates the need for the custom hardware accelerator I designed (~12ms target).
 
-👉 **[View the Hardware Accelerator Research (SystemVerilog)](https://github.com/SamuelNadutey/systolic-array-accelerator)**
+ **[View the Hardware Accelerator Research (SystemVerilog)](https://github.com/SamuelNadutey/systolic-array-accelerator)**
 
 ---
 
-## 📱 Download & Test
+##  Download & Test
 You can test the application on any Android device. **No internet connection is required.**
 
 ### **[Download Latest APK (v1.1)](../../releases/latest)**
@@ -24,7 +24,7 @@ You can test the application on any Android device. **No internet connection is 
 
 ---
 
-## 🎥 System Demo
+##  System Demo
 
 | Crop Selection & Zoom | Image Acquisition | Engineering Analysis |
 | :---: | :---: | :---: |
@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/c2dd3900-387c-4c28-bfa7-3bc1e57c87ae
 
 ---
 
-## 🚀 Key Engineering Features
+##  Key Engineering Features
 
 ###  AI Model Engineering
 * **[View Training Notebook](./model_training/cropGuard_training.ipynb)**: Full Python pipeline using TensorFlow Lite Model Maker.
@@ -66,7 +66,7 @@ All diagnostic advice is hardcoded based on verified technical sheets from:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Language:** Java (Android Native)
 * **ML Engine:** TensorFlow Lite (Interpreter API)
 * **Architecture:** Hardware-Software Co-Design Simulation
@@ -74,7 +74,7 @@ All diagnostic advice is hardcoded based on verified technical sheets from:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 **Partey Samuel Nadutey**
 *Researching Hardware Acceleration for Edge AI*
 * [Email Me](mailto:samuelnadutey7@gmail.com)
